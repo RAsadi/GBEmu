@@ -2,15 +2,27 @@
 
 A simple emulator for the original Nintendo Gameboy, built as a pet project just for fun and learning.
 
+
+## Screenshots
+
+
+
+|              Title Screen               |                 Gameplay               |
+|-----------------------------------------|----------------------------------------|
+|   ![Zelda1](screenshots/Zelda1.png)     |    ![Zelda2](screenshots/Zelda2.png)   |
+| ![Pokemon1](screenshots/Pokemon1.png)  |  ![Pokemon2](screenshots/Pokemon2.png) |
+
+
 ## Setup and building
 
 Before running the project, install SDL2 from https://www.libsdl.org/
 
 SDL2 was used for all graphics purposes
 
+As a warning, this was only tested on my local Macbook with macOS Mojave.
+
 ### Cloning the rep
 After cloning as normal, run
-
 ```
 git submodule update --init --recursive
 git submodule update --recursive --remote
