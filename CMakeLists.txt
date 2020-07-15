@@ -24,6 +24,6 @@ add_executable(GBEmu src/main.cpp
         src/interrupt_handler.cpp src/interrupt_handler.h
         src/joypad.cpp src/joypad.h
         src/utils/bit_utils.h src/utils/enums.h src/utils/constants.h
-        src/utils/bit_utils.cpp)
+        src/utils/bit_utils.cpp src/gameboy.cpp src/gameboy.h)
 
 target_link_libraries(GBEmu ${SDL2_LIBRARIES})

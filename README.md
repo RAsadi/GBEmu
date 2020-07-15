@@ -34,10 +34,27 @@ Add any roms you want to run to the `roms` directory, and then change the string
 
 In the future, this will be fixed to be a command line argument
 
-Then, build the project using CMake
+Then, build the project using CMake. I run the following commands to build the project to a `build` directory
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
-TODO: include build instructions
+#### Controls
+| Computer Key | Gameboy Button |
+|--------------|----------------|
+|       S      |        B       |
+|       A      |        A       |
+|   ARROW UP   |    JOYPAD UP   |
+|  ARROW DOWN  |   JOYPAD DOWN  |
+|  ARROW LEFT  |   JOYPAD LEFT  |
+| ARROW RIGHT  |  JOYPAD RIGHT  |
+|    SPACE     |      START     |
+|    ENTER     |     SELECT     |
 
+Finally, you can run the project using `./GBEmu <path_to_rom>`
 ## Acknowledgements
 A great tool for Gameboy development is https://github.com/gbdev/awesome-gbdev, which a curated list of useful resources.
 
